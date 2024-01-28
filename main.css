@@ -1,0 +1,185 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*configurações de fonte (letras)*/
+header,
+header a,
+section h2,
+section h3,
+form button {
+    font-family: 'Lilita One', sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+body, input, textarea {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sinopse, #sobre, .sugestão {
+    font-weight: bold;
+    font-size: medium;
+}
+
+/*container*/
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*cabeçalho*/
+header {
+    padding: 16px 0;
+    background-color: #244a6d;
+    color: #e2edfb;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #e2edfb;
+    text-decoration: none;
+}
+
+/*alinhamento cabeçalho tambem usado para a sessão sinopse*/
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.capa-jogo {
+    margin-right: 24px;
+    height: 400px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #244a6d;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.plataformas li {
+    display: inline;
+    margin-right: 24px;
+}
+
+.plataformas img {
+    height: 24px;
+    margin-top: 8px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+
+/*Sessão universo*/
+
+.livros {
+    
+    width: 540px;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: -30px;
+    padding-top: 35px;
+}
+
+.bg-universo {
+    background-color: #244a6d;
+    color: #e2edfb;
+    margin-top: 24px;
+}
+
+.universo-txt {
+    width: 712px;
+}
+
+/*Sobre*/
+#sobre .container {
+    display: block;
+}
+
+#sobre h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+/*margem entre a coluna da historia e do formulario*/
+.history {
+    margin-right: 150px;
+    margin-top: 6px;
+}
+
+.sugestoes-jogos {
+    display:flex;
+    justify-content: space-between;
+}
+
+/*ajuste da largura do h3 para o titulo do formulario ficar em uma só linha*/
+
+
+/*forms*/
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 309px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 160px;
+}
+
+form button {
+    background-color: #244a6d;
+    color: #e2edfb;
+    border: none;
+    cursor: pointer;
+}
+
+/*quando passar o mouse por cima a cor muda*/
+form button:hover {
+    background-color: #314e9e;
+}
+
+/*alterar cor do campo quando selecionado*/
+input:focus, textarea:focus {
+    outline-color: #244a6d;
+}
+
+/*rodape*/
+
+footer {
+    padding: 16px 0;
+    background-color: #244a6d;
+    color: #e2edfb;
+}
+
+
+
+
+
+
